@@ -5,7 +5,7 @@ class BadgeNew extends React.Component {
     render(){
         return(
             <div>
-                <Navbar />
+                <Navbar />asldfi
             </div>
         )
     }
