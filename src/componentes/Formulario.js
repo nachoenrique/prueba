@@ -2,11 +2,9 @@ import React from 'react'
 
 class Formulario extends React.Component {
     
-    handleChange = e => { //console.log({name: e.target.name, value: e.target.value})
-                        this.setState({[e.target.name]: e.target.value})}
     handleClick = e => {console.log('Button was clicked')}
     handleSumit = e => {e.preventDefault();console.log('Form was sumitted');console.log(this.state) }
-    state={}
+    //state={}
 
     render(){
         return(
@@ -20,19 +18,19 @@ class Formulario extends React.Component {
                     <div className="form-group">
                         
                         <label >First Name</label>
-                        <input onChange={this.handleChange} type="text" name="firstName" value={this.state.firstName}/>
+                        <input onChange={this.props.onChange} type="text" name="firstName" value={this.props.formValues.firstName}/>
 
                         <label >Last Name</label>
-                        <input onChange={this.handleChange} className="form-control" type="text" name="lastName" value={this.state.lastName}/>
+                        <input onChange={this.props.onChange} className="form-control" type="text" name="lastName" value={this.props.formValues.lastName}/>
 
                         <label >Email</label>
-                        <input onChange={this.handleChange} className="form-control" type="email" name="email" value={this.state.email}/>
+                        <input onChange={this.props.onChange} className="form-control" type="email" name="email" value={this.props.formValues.email}/>
 
                         <label >Job Title</label>
-                        <input onChange={this.handleChange} className="form-control" type="text" name="jobTitle" value={this.state.jobTitle}/>
+                        <input onChange={this.props.onChange} className="form-control" type="text" name="jobTitle" value={this.props.formValues.jobTitle}/>
 
                         <label >Tuiter</label>
-                        <input onChange={this.handleChange} className="form-control" type="text" name="tuiter" value={this.state.tuiter}/>
+                        <input onChange={this.props.onChange} className="form-control" type="text" name="tuiter" value={this.props.formValues.tuiter}/>
                     
                         <button onClick={this.handleClick} className="btn btn-primary">Guardar</button>
                         
