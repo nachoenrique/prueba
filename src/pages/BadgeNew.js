@@ -7,7 +7,7 @@ import Formulario from '../componentes/Formulario'
 
 class BadgeNew extends React.Component {
     
-    state={form: {firstName:'' ,lastName:'', jobTitle:'', email:'', tuiter:'',}}
+    state={form: {firstName:'' ,lastName:'', jobTitle:'', email:'', tuiter:''}}
 
     handleChange = e => {
 
@@ -17,7 +17,8 @@ class BadgeNew extends React.Component {
         this.setState ({
 
             from:nextForm
-        })
+            }
+        )
         }
     
 

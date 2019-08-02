@@ -8,7 +8,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css'
-import BadgeNew from './pages/BadgeNew'
+import Badges from './pages/Badges'
 import './global.css'
 
 //const name = 'Nacho'
@@ -26,4 +26,4 @@ const container = document.getElementById('app');
 //React.createElement('p',{},'soy el nuevo'))
 
 // ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(<BadgeNew />, container); //¿PARA QUE SIRVE PONER "<Badge />"?
+ReactDOM.render(<Badges />, container); //¿PARA QUE SIRVE PONER "<Badge />"?
