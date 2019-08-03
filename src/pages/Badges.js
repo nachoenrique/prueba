@@ -3,6 +3,8 @@ import Navbar from '../componentes/Navbar'
 import confLogo from '../images/badge-header.svg'
 import './styles/Badges.css'
 import BadgesList from '../componentes/BadgesList'
+import "./styles/Badge.css"
+
 
 class Badges extends React.Component {
 
@@ -14,7 +16,7 @@ class Badges extends React.Component {
             lastName: 'Grady',
             email: 'Leann_Berge@gmail.com',
             jobTitle: 'Legacy Brand Director',
-            twitter: 'FredaGrady22221-7573',
+            tuiter: 'FredaGrady22221-7573',
             avatarUrl:
               'https://www.gravatar.com/avatar/f63a9c45aca0e7e7de0782a6b1dff40b?d=identicon',
           },
@@ -24,7 +26,7 @@ class Badges extends React.Component {
             lastName: 'Rodriguez',
             email: 'Ilene66@hotmail.com',
             jobTitle: 'Human Research Architect',
-            twitter: 'MajorRodriguez61545',
+            tuiter: 'MajorRodriguez61545',
             avatarUrl:
               'https://www.gravatar.com/avatar/d57a8be8cb9219609905da25d5f3e50a?d=identicon',
           },
@@ -34,7 +36,7 @@ class Badges extends React.Component {
             lastName: 'Torphy',
             email: 'Ron61@hotmail.com',
             jobTitle: 'National Markets Officer',
-            twitter: 'DaphneyTorphy96105',
+            tuiter: 'DaphneyTorphy96105',
             avatarUrl:
               'https://www.gravatar.com/avatar/e74e87d40e55b9ff9791c78892e55cb7?d=identicon',
           },

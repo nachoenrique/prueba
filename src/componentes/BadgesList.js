@@ -1,9 +1,13 @@
 import React from 'react'
+import "./styles/Badge.css"
+import '../componentes/styles/BadgesList.css'
+
 
 class BadgesList extends React.Component{
 
     render(){
         return(
+            
             <ul className="list-unstyled">
                 {this.props.badges.map((badge)=> {
                                       return(
@@ -15,6 +19,7 @@ class BadgesList extends React.Component{
                                     )
                 }
             </ul>
+            
         )
     }
 
