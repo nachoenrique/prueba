@@ -3,7 +3,6 @@ import Navbar from '../componentes/Navbar'
 import confLogo from '../images/badge-header.svg'
 import './styles/Badges.css'
 import BadgesList from '../componentes/BadgesList'
-import "./styles/Badge.css"
 
 
 class Badges extends React.Component {

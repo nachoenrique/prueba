@@ -2,7 +2,6 @@
 //element.innerText = 'Hello, Platzi Badges!';
 
 //const container = document.getElementById('app');
-
 //container.appendChild(element);
 
 import React from 'react';
@@ -10,6 +9,7 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css'
 import Badges from './pages/Badges'
 import './global.css'
+import '../node_modules/font-awesome/css/font-awesome.min.css'
 
 //const name = 'Nacho'
 ////const element = React.createElement('a',{href: 'https://instagram.com'},'Ir a ig.')
