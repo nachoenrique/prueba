@@ -7,9 +7,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css'
-import Badges from './pages/Badges'
+import App from './componentes/App'
 import './global.css'
 import '../node_modules/font-awesome/css/font-awesome.min.css'
+import Badges from './pages/Badges'
+import BadgeNew from './pages/BadgeNew'
 
 //const name = 'Nacho'
 ////const element = React.createElement('a',{href: 'https://instagram.com'},'Ir a ig.')
@@ -26,4 +28,4 @@ const container = document.getElementById('app');
 //React.createElement('p',{},'soy el nuevo'))
 
 // ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(<Badges />, container); //¿PARA QUE SIRVE PONER "<Badge />"?
+ReactDOM.render(<App/>, container); //¿PARA QUE SIRVE PONER "<Badge />"?
