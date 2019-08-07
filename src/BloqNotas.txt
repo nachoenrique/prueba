@@ -1,0 +1,8 @@
+<div className="row">
+                        <div className="col-6">
+                            <img src="" alt="" />
+                            <div className="">
+                                
+                            </div>
+                        </div>
+                    </div>

@@ -4,7 +4,7 @@ import './styles/BadgesList.css'
 import './styles/Navbar.css'
 import '../pages/styles/Badges.css'
 import '../pages/styles/BadgeNew.css'
-import iTuiter from './Iconos/twitter-brands.svg'
+
 
 
 class BadgesList extends React.Component{
