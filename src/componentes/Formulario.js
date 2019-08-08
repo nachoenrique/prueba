@@ -31,12 +31,11 @@ class Formulario extends React.Component {
 
                         <label >Tuiter</label>
                         <input onChange={this.props.onChange} className="form-control" type="text" name="tuiter" value={this.props.formValues.tuiter}/>
-                    
-                        <button onClick={this.handleClick} className="btn btn-primary">Guardar</button>
-                        
-
+    
 
                     </div>
+
+                    <button onClick={this.handleClick} className="btn btn-primary">Guardar</button>
                 
                 </form>
 

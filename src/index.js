@@ -29,4 +29,4 @@ const container = document.getElementById('app');
 //React.createElement('p',{},'soy el nuevo'))
 
 // ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(<Home/>, container); //¿PARA QUE SIRVE PONER "<Badge />"?
+ReactDOM.render(<App/>, container); //¿PARA QUE SIRVE PONER "<Badge />"?
