@@ -10,9 +10,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import App from './componentes/App'
 import './global.css'
 import '../node_modules/font-awesome/css/font-awesome.min.css'
-import Badges from './pages/Badges'
-import BadgeNew from './pages/BadgeNew'
-import Home from './pages/Home'
+
 
 //const name = 'Nacho'
 ////const element = React.createElement('a',{href: 'https://instagram.com'},'Ir a ig.')

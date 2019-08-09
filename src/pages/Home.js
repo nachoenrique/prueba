@@ -1,8 +1,6 @@
 import React from "react";
 import astro from "../images/astronauts.svg";
 import pcl from "../images/platziconf-logo.svg";
-import stars from "../images/stars.svg";
-import header from "../images/badge-header.svg";
 import "./styles/BadgeNew.css";
 import "./styles/Badges.css";
 import "./styles/Home.css";

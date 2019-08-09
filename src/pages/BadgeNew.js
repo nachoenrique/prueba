@@ -9,15 +9,12 @@ class BadgeNew extends React.Component {
     state={form: {firstName:'' ,lastName:'', jobTitle:'', email:'', tuiter:''}}
 
     handleChange = e => {
-
-        const nextForm = this.state.form;
-        nextForm [e.target.name]= e.target.value;
-
-        this.setState ({
-
-            from:nextForm
-            }
-        )
+        this.setState({
+            form: {
+              ...this.state.form,
+              [e.target.name]: e.target.value,
+            },
+          });
         }
     
 
