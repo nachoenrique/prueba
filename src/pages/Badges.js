@@ -15,9 +15,7 @@ class Badges extends React.Component {
         data: undefined
     }
 
-    componentDidMount(){
-        this.fetchData()
-    }
+    
 
     fetchData = async () => {
         this.setState({loading: true, error:null})
@@ -28,6 +26,10 @@ class Badges extends React.Component {
         } catch(error) {
             this.setState({loading: false, error: error})
         }
+    }
+
+    componentDidMount(){
+        this.fetchData()
     }
     
 

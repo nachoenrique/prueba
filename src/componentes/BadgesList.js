@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 
 import './styles/BadgesList.css';
 
@@ -17,7 +17,7 @@ class BadgesListItem extends React.Component {
           <strong>
             {this.props.badge.firstName} {this.props.badge.lastName}
           </strong>
-          <br />@{this.props.badge.tuiter}
+          <br />@{this.props.badge.twitter}
           <br />
           {this.props.badge.jobTitle}
         </div>

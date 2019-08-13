@@ -30,7 +30,7 @@ class Formulario extends React.Component {
                         <input onChange={this.props.onChange} className="form-control" type="text" name="jobTitle" value={this.props.formValues.jobTitle}/>
 
                         <label >Tuiter</label>
-                        <input onChange={this.props.onChange} className="form-control" type="text" name="tuiter" value={this.props.formValues.tuiter}/>
+                        <input onChange={this.props.onChange} className="form-control" type="text" name="twitter" value={this.props.formValues.twitter}/>
     
 
                     </div>
