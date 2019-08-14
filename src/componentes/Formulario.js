@@ -3,7 +3,7 @@ import React from 'react'
 class Formulario extends React.Component {
     
     handleClick = e => {console.log('Button was clicked')}
-    handleSubmit = e => {e.preventDefault();console.log('Form was sumitted');console.log(this.state) }
+    //handleSubmit = e => {e.preventDefault();console.log('Form was sumitted');console.log(this.state) }
     //state={}
 
     render(){
@@ -35,7 +35,7 @@ class Formulario extends React.Component {
 
                     </div>
 
-                    <button onClick={this.handleClick} className="btn btn-primary">Guardar</button>
+                    <button onClick={this.handleClick} className="btn btn-primary" onSubmit={this.handleSubmit}>Guardar</button>
                 
                 </form>
 

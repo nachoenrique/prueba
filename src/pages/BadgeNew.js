@@ -1,6 +1,6 @@
 import React from 'react'
 import'./styles/BadgeNew.css'
-import header from '../images/badge-header.svg'
+import header from '../images/platziconf-logo.svg'
 import Badge from '../componentes/Badge'
 import Formulario from '../componentes/Formulario'
 
@@ -24,7 +24,7 @@ class BadgeNew extends React.Component {
                 
                 
                 <div className="BadgeNew__hero">
-                    <img className="img-fluid" src={header} alt="Logo"/>
+                    <img className="BadgeNew__hero-image img-fluid" src={header} alt="Logo"/>
                 </div>
                 
                 <div className="container">
@@ -32,11 +32,11 @@ class BadgeNew extends React.Component {
                     <div className="row">
                         
                         <div className="col-6">
-                            <Badge firstName={this.state.form.firstName} 
-                            lastName={this.state.form.lastName} 
-                            twitter={this.state.form.twitter}
-                            email={this.state.form.email}
-                            jobTitle={this.state.form.jobTitle} 
+                            <Badge firstName={this.state.form.firstName || 'First_Name'} 
+                            lastName={this.state.form.lastName || 'Last_Name'} 
+                            twitter={this.state.form.twitter || ''}
+                            email={this.state.form.email || 'Email'}
+                            jobTitle={this.state.form.jobTitle || 'Job_Title'} 
                             avatarUrl="" />
                         </div>
 

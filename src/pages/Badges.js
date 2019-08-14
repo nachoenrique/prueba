@@ -4,8 +4,8 @@ import './styles/Badges.css'
 import BadgesList from '../componentes/BadgesList'
 import { Link } from 'react-router-dom'
 import api from '../api'
-
-
+import PageLoading from '../componentes/PageLoading'
+import PageError from '../componentes/PageError'
 
 class Badges extends React.Component {
 
@@ -36,8 +36,12 @@ class Badges extends React.Component {
     render() {
 
         if(this.state.loading === true){
-            return('Loading...')
+            return (<PageLoading />)
         } 
+
+        if(this.state.error){
+            return (<PageError error={this.state.error}/>)
+        }
 
         return (
 
