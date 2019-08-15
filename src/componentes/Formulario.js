@@ -4,7 +4,7 @@ class Formulario extends React.Component {
     
     handleClick = e => {console.log('Button was clicked')}
     //handleSubmit = e => {e.preventDefault();console.log('Form was sumitted');console.log(this.state) }
-    //state={}
+    state={}
 
     render(){
         return(
@@ -13,7 +13,7 @@ class Formulario extends React.Component {
 
                 <h1>NEW ATTENDANT</h1>
 
-                <form onSubmit={this.handleSubmit}> 
+                <form onSubmit={this.props.onSubmit}> 
                     
                     <div className="form-group">
                         
