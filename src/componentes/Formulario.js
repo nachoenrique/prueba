@@ -11,8 +11,6 @@ class Formulario extends React.Component {
            
             <div>
 
-                <h1>NEW ATTENDANT</h1>
-
                 <form onSubmit={this.props.onSubmit}> 
                     
                     <div className="form-group">
@@ -36,6 +34,10 @@ class Formulario extends React.Component {
                     </div>
 
                     <button onClick={this.handleClick} className="btn btn-primary" onSubmit={this.handleSubmit}>Guardar</button>
+
+                    {this.props.error && (
+                        <p className="text-danger">{this.props.error.message}</p>
+                    )}
                 
                 </form>
 

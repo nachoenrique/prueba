@@ -54,11 +54,11 @@
       "id": "dJeC03r"
     },
     {
-      "firstName": "Nacho",
+      "firstName": "Juan Iganacio",
       "lastName": "Enrique",
-      "jobTitle": "Ingeniero en Sistemas de Información",
-      "email": "nacho.enrique.97@gmail.com",
-      "twitter": "nachooenriqe",
+      "jobTitle": "Progrmador",
+      "email": "nacho.enrique.166@gmail.com",
+      "twitter": "jienriq",
       "id": "TnGPGQz"
     },
     {
@@ -68,6 +68,22 @@
       "email": "esteban.cajal@gmail.com",
       "twitter": "asdasd",
       "id": "1zwRLN6"
+    },
+    {
+      "firstName": "Son",
+      "lastName": "Goku",
+      "jobTitle": "Salvar a la humanidad",
+      "email": "goku@ssj.com",
+      "twitter": "gokussj",
+      "id": "4HxJ7lO"
+    },
+    {
+      "firstName": "Naruto",
+      "lastName": "Uzumaki",
+      "jobTitle": "Hokage",
+      "email": "rasengan@gmail.com",
+      "twitter": "naruzu",
+      "id": "8RQTaMc"
     }
   ]
 }
