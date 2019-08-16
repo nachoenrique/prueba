@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 import api from '../api'
 import PageLoading from '../componentes/PageLoading'
 import PageError from '../componentes/PageError'
+import MiniLoader from '../componentes/MiniLoader'
 
 class Badges extends React.Component {
 
@@ -30,12 +31,18 @@ class Badges extends React.Component {
 
     componentDidMount(){
         this.fetchData()
+        this.intervalId = setInterval(this.fetchData,5000)
+    }
+
+    componentWillUnmount(){
+        clearInterval(this.intervalId)
+
     }
     
 
     render() {
 
-        if(this.state.loading === true){
+        if(this.state.loading === true && this.state.data === undefined ){ //o !this.state.loading
             return (<PageLoading />)
         } 
 
@@ -66,6 +73,7 @@ class Badges extends React.Component {
                     </div>
 
                     <BadgesList badges={this.state.data} />
+                    {this.state.loading && <MiniLoader/>}
 
                 </div>
 
