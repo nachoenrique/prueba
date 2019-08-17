@@ -70,3 +70,6 @@ constructor(props) {
 
     render() {
         console.log('2/4. render()')              
+
+
+
