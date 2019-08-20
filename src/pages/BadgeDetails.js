@@ -5,18 +5,18 @@ import Badge from "../componentes/Badge";
 import { Link } from "react-router-dom";
 import DeleteBadgeModal from "../componentes/DeleteBadgeModal";
 
-function useIncrementoContador(max) {
-  const [count, setCount] = React.useState(0);
+// function useIncrementoContador(max) {
+//   const [count, setCount] = React.useState(0);
 
-  if (count > max) {
-    setCount(0);
-  }
+//   if (count > max) {
+//     setCount(0);
+//   }
 
-  return [count, setCount];
-}
+//   return [count, setCount];
+// }
 
 function BadgeDetails(props) {
-  const [count, setCount] = useIncrementoContador(5);
+//   const [count, setCount] = useIncrementoContador(5);
   const badge = props.badge;
 
   return (
@@ -51,14 +51,14 @@ function BadgeDetails(props) {
             <h2>Actions</h2>
             <div>
               <div>
-                <button
+                 {/* <button
                   onClick={() => {
                     setCount(count + 1);
                   }}
                   className="btn btn-primary mr-4"
                 >
                   Incremente count: {count}
-                </button>
+                </button>  */}
                 <Link
                   className="btn btn-primary mb-4"
                   to={`/badges/${badge.id}/edit`}
